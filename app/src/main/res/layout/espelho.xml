@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/back"
+    android:layout_height="match_parent"
+    android:smoothScrollbar="true"
+    android:overScrollMode="never">
+
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="None "
+        android:textColor="@color/corTextoPrincipal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="-28dp"
+        android:text="None "
+        android:textColor="@color/corTextoPrincipal"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/quantidade"
+        android:layout_width="60dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="510dp"
+        android:layout_marginTop="-35dp"
+        android:background="@color/corTextoPrincipal"
+        android:ems="10"
+        android:textAlignment="center"
+        android:clickable="false"
+        android:overScrollMode="always"
+        android:inputType="numberDecimal"
+        />
+</LinearLayout>

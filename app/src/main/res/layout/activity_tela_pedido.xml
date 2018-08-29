@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    tools:context=".TelaPedido">
+
+    <ListView
+        android:id="@+id/listaItens"
+        android:layout_width="match_parent"
+        android:layout_height="870dp"
+        tools:listitem="@layout/espelho"
+        >
+
+    </ListView>
+
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/corTextoPrincipal"
+        android:textSize="20dp" />
+
+
+
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="880dp"
+        android:background="@drawable/btnenviar" />
+
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="880dp"
+        android:background="@drawable/btncancelar" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".ListDatas">
+
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="600dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:clickable="true"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:text="Selecione uma data"
+        android:textColor="@color/corTextoPrincipal"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"/>
+</android.support.design.widget.CoordinatorLayout>

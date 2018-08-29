@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaMenu"
+    android:background="@color/back"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <Button
+        android:id="@+id/btnPedido"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/btnpedido"/>
+
+    <Button
+        android:id="@+id/btnHistorico"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/btnhistorico"/>
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/btnsair"/>
+
+    <TextView
+        android:id="@+id/textoNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:text="Técnico:"
+        android:textColor="@color/corTextoPrincipal"/>
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="20dp"
+        android:text="nome"
+        android:textColor="@color/corTextoPrincipal"/>
+
+    <TextView
+        android:id="@+id/textoArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:text="Área:"
+        android:textColor="@color/corTextoPrincipal"/>
+
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="20dp"
+        android:text="area"
+        android:textColor="@color/corTextoPrincipal"/>
+
+    <TextView
+        android:id="@+id/textoCoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:text="Coordenador:"
+        android:textColor="@color/corTextoPrincipal"/>
+
+    <TextView
+        android:id="@+id/coor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="164dp"
+        android:textSize="20dp"
+        android:text="coor"
+        android:textColor="@color/corTextoPrincipal"/>
+
+</android.support.design.widget.CoordinatorLayout>
